@@ -2,6 +2,7 @@ package com.wyy.responsibility;
 
 public class Main {
 
+    //责任链
     public static void main(String[] args) {
        String msg = "敏感,符号,大家好！";
        Requerst requerst = new Requerst();
