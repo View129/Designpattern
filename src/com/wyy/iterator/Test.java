@@ -10,8 +10,8 @@ public class Test {
 
         System.out.println(a1.size());
 
-        Iterator it =a1.iterator();
-        while (it.hasNext()){
+        Iterator it = a1.iterator();
+        while (it.hasNext()) {
             Cat cat = (Cat) it.next();
             System.out.println(cat);
         }
